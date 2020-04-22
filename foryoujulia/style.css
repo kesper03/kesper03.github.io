@@ -1,0 +1,52 @@
+body {
+     background: url(love.png)
+}
+
+.backstage{
+    background-color:#f5e1ed;
+    width: 1500px;
+    height: 520px;
+    position: absolute;
+    top: 10%; 
+    left: 10%;
+    font-size: 60px;   
+    white-space:normal;
+    color:#800080;
+    text-align: center 
+
+}
+.knopka a { 
+    font-size: 50px;
+    font-family: monospace;
+    background-color: #de3ade;
+    border-radius: 100px;
+    padding: 10px 30px;
+    color: black;
+    margin: 1px;
+    text-decoration: none;
+    position: relative;
+    right: 0px; 
+    bottom: -280px; 
+    left: px;
+}
+.knopka a:hover {
+    background-color:#c41dc4
+ } 
+
+ @media(min-width: 0px) and (max-width: 1280px) {
+
+.backstage{ 
+    left: -1px;
+    font-size: 80px;
+    width: 1200px;
+    height: 1120px;
+    top: 0px;
+
+ }
+.knopka a {
+  right: 0px; 
+  font-size: 80px;
+
+}
+
+}
